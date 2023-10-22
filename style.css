@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+}
+
+/*Navigation*/
+nav,
+.navbar-brand a {
+    font-size: 25px;
+    font-family: 'Playpen Sans', cursive;
+    color: #001233;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-link {
+    margin: 0 15px;
+}
+
+.logo-img {
+    max-width: 100%;
+    width: 120px;
+    height: auto;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+/*Home*/
+.home{
+    margin: 5px 40px;
+    color: #001233;
+    padding: 20px 0;
+    font-family: 'Lora', serif;
+}
+
+.home .row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-img {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+}
+
+.home-text {
+    margin-left: 50px;
+    text-align: left;
+}
+
+.home-text h6 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.home-text h1 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.home-text h4 {
+    padding: 10px;
+}
+
+.button {
+    margin: 25px;
+    color: #fff;
+    background-color: #001233;
+    padding: 15px 25px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: 1px solid #001233;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    color: #001233;
+    background-color: #caf0f8;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border: 1px solid #caf0f8;
+}
+
+.social-icons {
+    margin: 10px 40px;
+}
+
+.social-icons a {
+    font-size: 28px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #001233;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) and (max-width: 1024px){
+    .home {
+        margin: 10px;
+    }
+
+    .home-img{
+        max-width: 100%;
+        width: 200px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-text h1 {
+        font-size: 20px;
+    }
+
+    .home-text h6 {
+        font-size: 15px;
+    }
+
+    .home-text h3 {
+        font-size: 12px;
+    }
+    .button {
+        font-size: 14px; 
+        padding: 8px 16px;
+    }
+    .social-icons a {
+        font-size: 18px; 
+    }
+
+}
