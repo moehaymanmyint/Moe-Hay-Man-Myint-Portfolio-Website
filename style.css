@@ -168,6 +168,11 @@ nav,
         font-size: 20px;
         margin-right: 10px; 
     }
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: flex-end; 
+        align-items: center; 
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -223,5 +228,10 @@ nav,
     .social-icons a {
         font-size: 24px;
         margin-right: 10px;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: flex-end; 
+        align-items: center; 
     }
 }
