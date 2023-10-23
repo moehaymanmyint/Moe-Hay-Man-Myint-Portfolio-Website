@@ -119,7 +119,16 @@ nav,
     opacity: 0.9;
 }
 
-@media (max-width: 768px) and (max-width: 1024px){
+@media (max-width: 768px){
+    nav, .navbar-brand a {
+        font-size: 15px;
+    }
+    .navbar-nav .nav-link {
+        margin: 0 10px;
+    }
+    .home .col-md-6 {
+        text-align: center; 
+    }
     .home {
         margin: 10px;
     }
@@ -135,33 +144,84 @@ nav,
 
     .home-text h1 {
         font-size: 23px;
-        margin: 0 auto;
     }
 
     .home-text h6 {
-        margin-top: 20px;
+        margin: 20px 0;
         font-size: 18px;
-        text-align: center;
-        margin: 0 auto;
     }
 
     .home-text h3 {
         font-size: 15px;
-        text-align: center;
-        margin: 0 auto;
     }
     .button {
         font-size: 16px;
         padding: 8px 16px;
-        text-align: center;
     }
     .social-icons {
+        margin: 8px 16px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .social-icons a {
-        font-size: 20px; 
+        font-size: 20px;
+        margin-right: 10px; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    nav,
+    .navbar-brand a {
+        font-size: 18px;
     }
 
+    .navbar-nav .nav-link {
+        margin: 0 12px;
+    }
+
+    .home .col-md-6 {
+        text-align: center;
+    }
+
+    .home {
+        margin: 10px;
+    }
+
+    .home-img {
+        max-width: 100%;
+        width: 300px;
+        height: auto;
+    }
+
+    .home-text h1 {
+        font-size: 30px;
+    }
+
+    .home-text h6 {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .home-text h3 {
+        font-size: 18px;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .social-icons {
+        margin: 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+        margin-right: 10px;
+    }
 }
