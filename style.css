@@ -286,10 +286,15 @@ nav,
     .about-para {
         font-size: 15px;
     }
+    .education {
+        font-size: smaller;
+    }
+    .project {
+        font-size: smaller;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
     nav,
     .navbar-brand a {
         font-size: 18px;
@@ -349,6 +354,12 @@ nav,
         align-items: center;
     }
     .about-para {
-    font-size: 10px;
+        font-size: 10px;
+    }
+    .education {
+        font-size: smaller;
+    }
+    .project {
+        font-size: smaller;
     }
 }
