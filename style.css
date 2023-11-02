@@ -222,7 +222,7 @@ nav,
         align-items: center;
     }
     .about-para {
-    font-size: 10px;
+    font-size: 15px;
     }
 }
 
@@ -242,7 +242,7 @@ nav,
     }
 
     .home {
-        margin: 10px;
+        margin: 15px;
     }
 
     .home-img {
