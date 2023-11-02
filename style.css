@@ -33,8 +33,7 @@ nav,
     margin-right: auto;
 }
 
-/*Home*/
-.home {
+.home, .education {
     margin: 5px 40px;
     color: #001233;
     padding: 20px 0;
@@ -159,6 +158,57 @@ nav,
     margin-right: 5px;
 }
 
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.education h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.education p{
+    text-align: center;
+    font-size: larger;
+}
+
+.education h2 {
+    font-weight: bold;
+}
+
+.education h5 {
+    color: #9e0e56;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+    background: rgb(247, 235, 241);
+    background: radial-gradient(circle, rgba(247, 235, 241, 1) 4%, rgba(220, 232, 245, 1) 100%);
+    transition: all 0.3s ease;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 #001233;
+}
+.education .row{
+    align-items: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 @media (max-width: 768px) {
     nav,
     .navbar-brand a {
@@ -222,7 +272,7 @@ nav,
         align-items: center;
     }
     .about-para {
-    font-size: 15px;
+        font-size: 15px;
     }
 }
 
