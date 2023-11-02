@@ -221,6 +221,9 @@ nav,
         justify-content: flex-end;
         align-items: center;
     }
+    .about-para {
+    font-size: 18px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -282,5 +285,8 @@ nav,
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
+    }
+    .about-para {
+    font-size: 18px;
     }
 }
