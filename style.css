@@ -290,7 +290,7 @@ nav,
     .about-para {
         font-size: 15px;
     }
-    .education, .education .card {
+    .education, .education .card h2 h4 h5{
         font-size: smaller;
     }
     .project .card {
@@ -360,7 +360,7 @@ nav,
     .about-para {
         font-size: 10px;
     }
-    .education, .education .card {
+    .education, .education .card h2 h4 h5{
         font-size: smaller;
     }
     .project .project .card {
