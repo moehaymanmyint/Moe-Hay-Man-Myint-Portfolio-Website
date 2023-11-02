@@ -209,6 +209,10 @@ nav,
     height: auto;
 }
 
+.project .card {
+    border-radius: 30px;
+}
+
 .project .card-body {
     text-align: center;
 }
@@ -286,10 +290,10 @@ nav,
     .about-para {
         font-size: 15px;
     }
-    .education {
+    .education, .education .card {
         font-size: smaller;
     }
-    .project {
+    .project .card {
         font-size: smaller;
     }
 }
@@ -356,10 +360,10 @@ nav,
     .about-para {
         font-size: 10px;
     }
-    .education {
+    .education, .education .card {
         font-size: smaller;
     }
-    .project {
+    .project .project .card {
         font-size: smaller;
     }
 }
