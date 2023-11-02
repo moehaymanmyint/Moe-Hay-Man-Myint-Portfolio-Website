@@ -33,7 +33,7 @@ nav,
     margin-right: auto;
 }
 
-.home, .education {
+.home, .education, .project {
     margin: 5px 40px;
     color: #001233;
     padding: 20px 0;
@@ -165,12 +165,12 @@ nav,
     justify-content: center;
 }
 
-.education h1 {
+.education h1, .project h1 {
     font-weight: bold;
     text-align: center;
 }
 
-.education p{
+.education h6, .project h6{
     text-align: center;
     font-size: larger;
 }
@@ -196,6 +196,7 @@ nav,
     background: radial-gradient(circle, rgba(247, 235, 241, 1) 4%, rgba(220, 232, 245, 1) 100%);
     transition: all 0.3s ease;
 }
+
 .card:hover {
     box-shadow: 0 8px 16px 0 #001233;
 }
@@ -208,6 +209,17 @@ nav,
     height: auto;
 }
 
+.project .card-body {
+    text-align: center;
+}
+
+.project h4{
+    font-weight: bold;
+}
+
+.project .button{
+    padding: 10px 20px;
+}
 
 @media (max-width: 768px) {
     nav,
