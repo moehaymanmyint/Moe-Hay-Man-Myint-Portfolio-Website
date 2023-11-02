@@ -290,9 +290,17 @@ nav,
     .about-para {
         font-size: 15px;
     }
-    .education, .education .card h2 h4 h5{
+    .education {
         font-size: smaller;
     }
+    .education h2 {
+        font-size: smaller;
+    }
+
+    .education h4, .education h5 {
+        font-size: smaller;
+    }
+
     .project .card {
         font-size: smaller;
     }
@@ -360,10 +368,18 @@ nav,
     .about-para {
         font-size: 10px;
     }
-    .education, .education .card h2 h4 h5{
+    .education {
         font-size: smaller;
     }
-    .project .project .card {
+    .education h2 {
+        font-size: smaller;
+    }
+
+    .education h4, .education h5 {
+        font-size: smaller;
+    }
+    
+    .project .card {
         font-size: smaller;
     }
 }
