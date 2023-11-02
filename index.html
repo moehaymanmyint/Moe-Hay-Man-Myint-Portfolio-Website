@@ -40,8 +40,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link" href="#about">About</a>
                     <a class="nav-link" href="#">Education</a>
                     <a class="nav-link" href="#">Project</a>
                     <a class="nav-link" href="#">Contact Me</a>
@@ -51,7 +51,7 @@
     </nav>
 
     <!--Home-->
-    <div class="home">
+    <div class="home" id="home">
         <div class="row">
             <div class="col-md-6">
                 <img src="./img/home-img.jpg" alt="Moe Hay Man Myint" class="home-img">
@@ -76,14 +76,15 @@
         </div>
     </div>
     <hr>
+
     <!--About-->
-    <div class="about">
-        <h1 class="text-center">A Little About Me 🙈</h1>
+    <div class="about" id="about">
+        <h1 class="text-center fs-1">A Little About Me 🙈</h1>
         <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-md-8 text-center">
                 <img src="./img/about.jpg" alt="" class="about-img">
             </div>
-            <div class="col-md-6 text-center">
+            <div class="col-md-8 text-center">
                 <p class="about-para">I'm Moe Hay Man Myint @ شمشيدة, Front-end Developer from Myanmar. I'm currently
                     learning at SheCodes. I'm obsessed with coding and create new things. My specialty is front-end web
                     design and development with HTML, CSS, and JS. I'm also skillful in High-Level languages such as C++,
@@ -93,11 +94,12 @@
                         <a href="#" class="fa fa-instagram"></a>
                         <a href="#" class="fa fa-youtube"></a>
                     </div>
-                <button type="button" class="button">Download CV</button>
+                <a href="./img/CV.pdf" download="CV.pdf" class="button">Download My CV</a>
             </div>
         </div>
     </div>
     <hr>
+
 </body>
 
 </html>

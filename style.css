@@ -34,7 +34,7 @@ nav,
 }
 
 /*Home*/
-.home, .about {
+.home {
     margin: 5px 40px;
     color: #001233;
     padding: 20px 0;
@@ -122,6 +122,8 @@ nav,
 
 .about {
     text-align: center;
+    font-family: 'Lora', serif;
+    color: #001233;
 }
 
 .about .row {
@@ -131,9 +133,13 @@ nav,
     align-items: center;
 }
 
+.about h1{
+    font-weight: bold;
+}
+
 .about-img {
     max-width: 100%;
-    width: 150px;
+    width: 180px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -142,7 +148,15 @@ nav,
 .about-para {
     text-align: center;
     margin: 25px 5px;
-    font-size: 18px;
+    font-size: 22px;
+}
+
+.about a {
+    text-decoration: none;
+    margin: 25px;
+}
+.about .social-icons a{
+    margin-right: 5px;
 }
 
 @media (max-width: 768px) {
