@@ -33,7 +33,7 @@ nav,
     margin-right: auto;
 }
 
-.home, .education, .project, .certificate {
+.home, .education, .project, .certificate, .contact, .contact-us {
     margin: 5px 40px;
     color: #001233;
     padding: 20px 0;
@@ -266,6 +266,54 @@ nav,
     text-align: justify;
 }
 
+.contact .row{
+    margin: 10px 100px;
+    padding: 20px;
+    border: 1px solid none;
+    border-radius: 10px;
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.contact h2{
+    font-weight: bold;
+}
+.contact .col-md-4{
+    text-align: center;
+    align-items: center;
+}
+
+.contact .button{
+    border-radius: 15px;
+}
+.contact-us{
+    text-align: center;
+}
+.contact-us .mail {
+    text-decoration: none;
+    font-size: 35px;
+    margin: 20px;
+    color: #001233;
+}
+.contact-us .mail:hover{
+    color: blue;
+}
+span {
+    margin: 0 10px;
+    font-size: xx-large;
+}
+.footer {
+    background-color: #001233;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.footer p{
+    margin: 0 auto;
+}
+
 @media (max-width: 768px) {
     nav,
     .navbar-brand a {
@@ -365,6 +413,18 @@ nav,
     .certificate .row.plus .col-md-6 a {
         order: 2;
     }
+    .contact .row{
+        margin: 5px 15px;
+    }
+    .footer{
+        font-size: smaller;
+    }
+    .contact {
+        font-size: smaller;
+    }
+    .contact-us .mail {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -458,5 +518,17 @@ nav,
     .certificate .row.plus .col-md-6 img,
     .certificate .row.plus .col-md-6 a {
         order: 2;
+    }
+    .contact .row{
+        margin: 5px 15px;
+    }
+    .footer{
+        font-size: smaller;
+    }
+    .contact {
+        font-size: smaller;
+    }
+    .contact-us .mail {
+        font-size: 20px;
     }
 }
