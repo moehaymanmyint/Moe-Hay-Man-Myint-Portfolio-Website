@@ -352,12 +352,6 @@ nav,
     .certificate .row .button {
         margin: 10px auto;
     }
-    .certificate img {
-        width: larger;
-    }
-    .certificate .BWD {
-        width: larger;
-    }
     .certificate .row.plus {
         flex-direction: column-reverse;
     }
@@ -451,12 +445,6 @@ nav,
     }
     .certificate p, .certificate .row h1 {
         display: none;
-    }
-    .certificate img {
-        width: larger;
-    }
-    .certificate .BWD {
-        width: larger;
     }
     .certificate .row.plus {
         flex-direction: column-reverse;
